@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo mod get &&  hugo mod npm pack && npm version  && hugo version &&  ./pull-images.sh && npm run build
+        run: hugo mod get &&  hugo mod npm pack && npm version &&npm i && npm install -g postcss-cli  && hugo version &&  ./pull-images.sh && npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.2
         with:
