@@ -1,15 +1,5 @@
 {
-  "comments": {
-    "dependencies": {},
-    "devDependencies": {
-      "@tailwindcss/typography": "github.com/nicokaiser/hugo-theme-gallery",
-      "autoprefixer": "github.com/nicokaiser/hugo-theme-gallery",
-      "postcss": "github.com/nicokaiser/hugo-theme-gallery",
-      "postcss-cli": "github.com/nicokaiser/hugo-theme-gallery",
-      "postcss-import": "github.com/nicokaiser/hugo-theme-gallery",
-      "tailwindcss": "github.com/nicokaiser/hugo-theme-gallery"
-    }
-  },
+
   "dependencies": {},
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
