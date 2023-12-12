@@ -18,11 +18,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.112'
+          hugo-version: 'latest'
           extended: true
 
       - name: Build
-        run: hugo mod get && hugo mod npm pack && npm version && npm install -g postcss-cli && npm install -g postcss && ./pull-images.sh && npm run build
+        run: hugo mod get &&  hugo mod npm pack && npm version  && hugo version &&  ./pull-images.sh && npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.2
         with:
