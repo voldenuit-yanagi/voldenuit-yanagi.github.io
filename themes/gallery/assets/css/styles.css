@@ -1,3 +1,7 @@
+.gallery-content{
+  max-width: 680px;
+}
+
 @font-face {
   font-family: "InterVariable";
   font-weight: 100 900;
@@ -7,7 +11,8 @@
   src: url("../fonts/InterVariable.woff2") format("woff2");
 }
 
-@tailwind base;
+
+/* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
 
@@ -34,3 +39,5 @@ html.dark {
 img.lazyload:not([src]) {
   visibility: hidden;
 }
+
+
