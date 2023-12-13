@@ -1,0 +1,10 @@
+
+
+<div>
+   
+    {{- $toc := .TableOfContents -}}
+    {{- $toc := replaceRE `<ul>\n<li>\n<ul>` `<ul>` $toc -}}
+    {{- safeHTML $toc -}}
+    这一个详情页面
+    {{ .Content }}
+</div>

@@ -1,0 +1,11 @@
+{{ define "main" }}
+  {{- partial "page_header.html" . -}}
+  {{- $toc := .TableOfContents -}}
+ 
+
+  {{- $toc := replaceRE `</li>` `</li>` $toc -}}
+    {{- $toc = replaceRE `<ul>` `<ul class="flex justify-center	">` $toc -}}
+    <div class="mx-auto  text-center 	">{{- safeHTML $toc -}}</div>
+    <div class="gallery-content list-decimal	" style="margin: 0 auto;max-width: 880px;"> {{ .Content }}</div>
+  {{- partial "page_albums.html" . -}}
+{{ end }}
