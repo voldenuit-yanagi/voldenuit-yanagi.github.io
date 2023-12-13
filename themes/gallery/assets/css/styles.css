@@ -10,11 +10,25 @@
   font-named-instance: "Regular";
   src: url("../fonts/InterVariable.woff2") format("woff2");
 }
-
-
+.gallery-content{
+  max-width: 680px;
+  margin: 0 auto;
+}
+.gallery-content ul {
+  list-style: disc;
+}
+a {
+  text-decoration:none
+}
+.my-12 li {
+  list-style: none;
+}
 /* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
+
+
+
 
 @import "../jslibs/photoswipe/dist/photoswipe.css";
 @import "../jslibs/photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.css";
@@ -41,3 +55,6 @@ img.lazyload:not([src]) {
 }
 
 
+.gallery-content li {
+  list-style: disc;
+}

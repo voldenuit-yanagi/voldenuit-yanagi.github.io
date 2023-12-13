@@ -1,108 +1,44 @@
 ---
-title: The Narumi Renderer
-description: Exotic wildlife, pet kittens — and everything in between. Uncover the beauty of the animal kingdom through your screen.
+title: PBR Shader
+description: xxxxxxx
 featured_image: janis-ringli-UC1pzyJFyvs-unsplash.jpg
+weight: 1
 
 # list pages require at least one image to be displayed.
 ---
 
+## Microfacet Model and Image-based Lighting
+xxxx
+
+图片及图片文字说明
 
 
-The Narumi renderer is an offline physically based renderer for research and self-education purpose. Narumi was created almost completely from scratch (except for the building blocks of asset loading). Currently it covers a relatively basic set of features. However, once the foundation has been laid, I should be ready to implement a lot of more advanced techniques. Integration with the recent real-time raytracing technologies is also on the roadmap.
+## Real-time Shadows
+implemented Two Pass Shadow Map for hard shadows; implement PCF (Percentage Closer Filter) and PCSS (Percentage Closer Soft Shadow) for soft shadows.
 
-## Current Feature Set
-
-* Bounding volume hierarchy (BVH): Hierarchical Linear BVH and binned-SAH BVH.
-* Quasi Monte Carlo samplers.
-* Direct lighting integrator.
-* Incremental path tracing integrator with Russian roulette.
-* Bidirectional path tracing integrator (with multiple importance sampling).
-* Volumetric path tracing integrator.
-* Area lights (polygonal mesh) and punctual lights.
-* Image-based lighting.
-* Basic matte, mirror (specular reflection) and glass (speculartransmission) material.
-* Microfacet-based material (GGX), both reflection and transmission. Importance sampling based on visible NDF function.
-* Unified material model based on the Disney 2015 BSDF.
-* Texturing with ray differential anti-aliasing; Bump mapping.
-* Homogeneous participant media with common phase functions (isotropic / Henyey-Greenstein).
-* Subsurface scattering support based on photon beam diffusion.
-Object instancing.
-* CPU parallelization via multithreading.
-* Custom scene representation to define everything including integrator, camera, geometry, lighting, and material. Conversion between source asset and custom representation is provided.
-
-##  Notes
-
-* Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-
-## Future Roadmap
-
-* Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-* * Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-
-## Gallery
+图片及图片文字说明 图片及图片文字说明
+图片及图片文字说明
 
 
-* Notes on the implementation of the unified material model.
-* Subsurface scattering implementation in Narumi.
-# Notes
+## Real-time Environment Mapping
+implemented PRT (Precomputed Radiance Transfer), including fitting three kinds of lighting and light transport with spherical harmonics in the offline path tracing toolchain, as well as using the precomputed coefficients in the WebGL framework.
+
+图片及图片文字说明 图片及图片文字说明
+
+
+## Real-time Global Illumination
+first calculated direct lighting, then implemented Screen Space Ray Tracing (SSR) to find the radiance of the second ray, and finally solved the rendering equation for the indirect lighting using the Monte Carlo method.
+
+图片及图片文字说明 图片及图片文字说明
+
+
+## Physically Based Materials
+used Kulla-Conty BRDF to make up the energy loss of Microfacet BRDF, including off-line computing the two prior variables and real-time calculating the energy compensation term.
+
+图片及图片文字说明 图片及图片文字说明
+
+
+## Real-time Ray Tracing
+implemented denoising for simple real-time ray tracing, including single frame denoising, motion vector calculation, and temporal accumulation.
+
+视频及视频文字说明 视频及视频文字说明

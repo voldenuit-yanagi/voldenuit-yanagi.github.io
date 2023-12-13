@@ -2,3 +2,8 @@
 .na-toc-header{
     color: red;
 }
+
+
+.gallery-content li {
+    list-style: disc;
+}
