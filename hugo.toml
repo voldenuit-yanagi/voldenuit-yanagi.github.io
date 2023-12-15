@@ -61,6 +61,9 @@ timeout = 10000000
   url = "https://github.com/nicokaiser/hugo-theme-gallery/"
   weight = 3
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.tableOfContents]
     endLevel = 2
     ordered = false

@@ -1,11 +1,13 @@
 ---
 title: Digital Paintings
 description: xxx
-featured_image: janis-ringli-UC1pzyJFyvs-unsplash.jpg
+featured_image: https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg
 weight: 1
 
 # list pages require at least one image to be displayed.
 ---
 
-图片 图片
-图片 图片
+![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)
+![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)
+![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)
+![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)

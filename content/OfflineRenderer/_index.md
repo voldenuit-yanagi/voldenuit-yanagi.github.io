@@ -1,12 +1,13 @@
 ---
 title: Offline Renderer
 description: xxxxxxxxxxxxxx
-featured_image: janis-ringli-UC1pzyJFyvs-unsplash.jpg
+featured_image: https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg
+weight: 4
 
 # list pages require at least one image to be displayed.
 ---
 
-## Current Feature Set
+## Current Features
 
 * xxx
 * Basic diffuse, reflective and refractive material.
@@ -23,7 +24,9 @@ featured_image: janis-ringli-UC1pzyJFyvs-unsplash.jpg
 ## Gallery
 xxxxx
 
-图片及图片文字说明 图片及图片文字说明
+每张图片下面写文字描述xxx
+![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg) ![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)
+![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg) ![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)
 
 
 ## References
