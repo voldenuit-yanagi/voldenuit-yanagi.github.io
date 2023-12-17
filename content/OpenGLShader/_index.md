@@ -27,6 +27,7 @@ xxxx
 说明文字放在对应动图的下面
 
 ## Real-time Shadows
+<hr class="h-px  bg-gray-200 border-0 dark:bg-gray-700"  />
 implemented Two Pass Shadow Map for hard shadows; implement PCF (Percentage Closer Filter) and PCSS (Percentage Closer Soft Shadow) for soft shadows.
 
 图片分两列
