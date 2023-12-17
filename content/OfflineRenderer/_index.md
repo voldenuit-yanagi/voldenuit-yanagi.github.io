@@ -25,7 +25,11 @@ weight: 4
 xxxxx
 
 每张图片下面写文字描述xxx
-![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg) ![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)
+<img src=" ></img>
+
+<img class="h-300 w-300 " src="https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-Microfacet-BRDF-IBL.gif" /> 
+
+![xxx]() ![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)
 ![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg) ![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)
 
 
