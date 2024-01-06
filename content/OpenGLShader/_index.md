@@ -15,16 +15,18 @@ xxxx
 
 <div class="columns-2">
 <div> <img class=" w-full aspect-video" src="https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-Microfacet-BRDF-IBL.gif" ></img>
-<div>这是一个简单备注 </div>
+<div style="text-align:center">这是一个简单备注 </div>
 </div>
 <div><img class=" w-full  aspect-video" src="https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-Disney-BRDF-IBL.gif"> </img> </div>
-<div>这是一个简单备注 </div>
+<div style="text-align:center">这是一个简单备注 </div>
+
+
+
 </div>
 
 
 
 
-说明文字放在对应动图的下面
 
 ## Real-time Shadows
 <hr class="h-px  bg-gray-200 border-0 dark:bg-gray-700"  />
