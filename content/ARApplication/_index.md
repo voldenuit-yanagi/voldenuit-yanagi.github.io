@@ -13,9 +13,6 @@ weight: 2
 * xxxxx
 
 ## Video Demonstration
-视频居中
-
-<video width="620"  controls style="margin:0 auto;        display: block;">
-    <source src="https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/AR.mp4" type="video/mp4">
+<video width="320" height="240" controls>
+    <source src="[video.mov](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/AR.mp4)" type="video/mp4">
 </video>
-<div style="margin:0 auto;text-align:center   "> 视频描述 </div>

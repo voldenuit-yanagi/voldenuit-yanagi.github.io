@@ -24,14 +24,24 @@ weight: 4
 ## Gallery
 xxxxx
 
-每张图片下面写文字描述xxx
-<img src=" ></img>
-
-<img class="h-300 w-300 " src="https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-Microfacet-BRDF-IBL.gif" /> 
-
-![xxx]() ![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)
-![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg) ![xxx](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg)
-
+<div class="columns-2">
+    <div> 
+        <img class="w-full" src="https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg" style="max-with:100%" />
+        <div>xxx</div>
+    </div>
+    <div>
+        <img class="w-full" src="https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg" style="max-with:100%" />
+        <div>xxx</div>
+    </div>
+    <div>
+        <img class="w-full" src="https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg" style="max-with:100%" />
+        <div>xxx</div>
+    </div>
+    <div>
+        <img class="w-full" src="https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-14-PathTracing2048SPP.jpeg" style="max-with:100%" />
+        <div>xxx</div>
+    </div>
+</div>
 
 ## References
 * xxx
