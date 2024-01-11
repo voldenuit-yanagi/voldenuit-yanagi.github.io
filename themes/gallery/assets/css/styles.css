@@ -23,6 +23,18 @@ b,strong {
   --tw-content: ''
 }
 
+h2::after  {
+  content: "";
+  display: block;
+  width: 100%;
+ height: 1px;
+ margin-top: 20px;
+ border: 1px solid gray;
+}
+img + div {
+  text-align: center;
+}
+
 button,[type=button],[type=reset],[type=submit] {
   -webkit-appearance: button;
   background-color: transparent;
@@ -45,7 +57,7 @@ button,input,optgroup,select,textarea {
   font-display: auto;
   font-style: normal;
   font-named-instance: "Regular";
-  src: url("../fonts/InterVariable.woff2") format("woff2");
+  src: url("/fonts/InterVariable.woff2") format("woff2");
 }
 .gallery-content{
   max-width: 680px;
