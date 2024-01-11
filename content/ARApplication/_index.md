@@ -15,8 +15,8 @@ weight: 2
 ## Video Demonstration
 
 <div style="margin:0 auto;text-align:center">
-<video width="320" height="240" controls  >
-    <source src="[video.mov](https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/AR.mp4)" type="video/mp4">
+<video width="620"  controls autoplay >
+    <source src="https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/AR.mp4" type="video/mp4">
 </video>
 
  </div>
