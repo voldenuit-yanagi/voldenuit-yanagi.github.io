@@ -1,7 +1,7 @@
 ---
 title: OpenGL Shaders
 description: xxxxxxx
-featured_image: https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-12-PCSS.png
+# featured_image: https://aliyun-image-host.oss-cn-hongkong.aliyuncs.com/2023-12-12-PCSS.png
 weight: 3
 
 # list pages require at least one image to be displayed.

@@ -22,7 +22,7 @@ b,strong {
 ::before,::after {
   --tw-content: ''
 }
-
+/* 下划线的 样式  */
 h2::after  {
   content: "";
   display: block;
@@ -31,6 +31,7 @@ h2::after  {
  margin-top: 20px;
  border: 1px solid gray;
 }
+/* 跳转图片下方文字 居中大小  */
 img + div {
   text-align: center;
 }

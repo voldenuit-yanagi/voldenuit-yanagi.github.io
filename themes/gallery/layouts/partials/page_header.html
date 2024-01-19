@@ -7,8 +7,11 @@
     {{ end }}
     
   </div>
+  {{- if (.Params.featured_image) }}
   <div class=" overflow-hidden rounded-2xl" style="background-color:transparent">
     <img class="lazyload aspect-[3/2] w-full" src="{{.Params.featured_image}}" data-src="{{ .Params.featured_image }}" alt="{{ .Title }}" />
   
   </div>
+  {{- end }}
+ 
 {{ end }}
