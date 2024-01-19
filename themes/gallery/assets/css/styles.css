@@ -22,13 +22,13 @@ b,strong {
 ::before,::after {
   --tw-content: ''
 }
-/* 下划线的 样式  */
+/* 下划线的 样式  marigin-top 调整上下高度 */
 h2::after  {
   content: "";
   display: block;
   width: 100%;
  height: 1px;
- margin-top: 20px;
+ margin-top: 20px; 
  border: 1px solid gray;
 }
 /* 跳转图片下方文字 居中大小  */
